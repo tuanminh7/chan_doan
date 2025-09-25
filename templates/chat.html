@@ -127,7 +127,7 @@
 </head>
 <body>
   <div class="chat-header">
-    <div>🌱 Chatbot tư vấn bệnh cây</div>
+    <div> Chatbot tư vấn bệnh cây</div>
     <a href="{{ url_for('clear') }}">Xóa lịch sử</a>
   </div>
 
@@ -149,7 +149,7 @@
 
   <form action="{{ url_for('send') }}" method="post" enctype="multipart/form-data" class="chat-form">
     <input type="text" name="message" placeholder="Nhập tin nhắn..." />
-    <label for="file-upload" class="file-label">📷 Ảnh</label>
+    <label for="file-upload" class="file-label"> Ảnh</label>
     <input id="file-upload" type="file" name="file" accept="image/*">
     <button type="submit">Gửi</button>
   </form>
