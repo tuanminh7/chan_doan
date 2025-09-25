@@ -1,0 +1,56 @@
+{
+  "binh_thuong": {
+    "ten_thuoc": [],
+    "lieu_luong": "",
+    "huong_dan_phun": "Không cần xử lý, cây đang khỏe mạnh."
+  },
+
+  "lua_bi_nam": {
+    "nguyen_nhan": "Bệnh do các loại nấm như Pyricularia oryzae (gây bệnh đạo ôn), Rhizoctonia solani (gây bệnh khô vằn) phát triển mạnh trong điều kiện ẩm độ cao, ruộng rậm rạp, bón thừa đạm.",
+    "dau_hieu": [
+      "Đạo ôn lá: Vết bệnh hình thoi hoặc bầu dục, ở giữa có màu xám trắng, viền nâu đỏ.",
+      "Đạo ôn cổ bông: Cổ bông bị thối đen, bông bị lép hoặc không vào hạt.",
+      "Khô vằn: Xuất hiện vết sọc dài màu nâu, có hình dạng vằn vèo trên bẹ lá và thân lúa.",
+      "Bệnh thường phát triển nhanh trong điều kiện ruộng ẩm thấp, rậm rạp và bón nhiều đạm."
+    ],
+    "ten_thuoc": ["Tilt Super", "Score 250EC", "Validamycin"],
+    "lieu_luong": "15-20ml cho bình 16 lít",
+    "huong_dan_phun": "Phun sớm khi mới xuất hiện triệu chứng, đảm bảo ướt đều toàn bộ tán lá và cổ bông."
+  },
+
+  "nhan_khong_benh": {
+    "ten_thuoc": [],
+    "lieu_luong": "",
+    "huong_dan_phun": "Không cần xử lý, cây nhãn đang khỏe mạnh."
+  },
+
+  "sau_cuon_la": {
+    "nguyen_nhan": "Bệnh do ấu trùng của loài sâu cuốn lá nhỏ (Cnaphalocrocis medinalis) gây ra. Giai đoạn gây hại: Ấu trùng gây hại mạnh nhất ở giai đoạn lúa đẻ nhánh đến làm đòng.",
+    "dau_hieu": [
+      "Ấu trùng nhả tơ cuốn dọc phiến lá lúa lại thành ống, nằm bên trong ăn phần xanh của lá.",
+      "Lá bị hại có những vệt trắng dài, làm giảm diện tích quang hợp của cây lúa.",
+      "Nhiều lá bị cuốn có thể làm cây lúa sinh trưởng kém, đẻ nhánh ít, trổ bông không đều, hạt lép lửng nhiều, giảm năng suất.",
+      "Trong điều kiện thời tiết ẩm ướt và ruộng lúa xanh tốt, sâu cuốn lá có thể phát triển thành dịch.",
+      "Sâu trưởng thành là loài bướm nhỏ, hoạt động vào ban đêm và đẻ trứng rải rác trên lá lúa.",
+      "Ấu trùng màu xanh nhạt đến xanh đậm, đầu màu nâu vàng.",
+      "Vòng đời của sâu khoảng 3–4 tuần.",
+      "Sâu phát triển mạnh trong điều kiện thời tiết nóng ẩm, mưa nhiều và ruộng lúa bón nhiều phân đạm."
+    ],
+    "ten_thuoc": ["Virtako", "Sago Super", "Rynaxypyr"],
+    "lieu_luong": "10-15ml cho bình 16 lít",
+    "huong_dan_phun": "Phun vào sáng sớm hoặc chiều mát, không phun khi trời mưa."
+  },
+
+  "than_thu": {
+    "nguyen_nhan": "Bệnh thán thư trên cây nhãn do nấm Colletotrichum gloeosporioides gây ra, thường phát triển mạnh trong điều kiện nóng ẩm, mưa nhiều.",
+    "dau_hieu": [
+      "Trên lá: Xuất hiện các đốm tròn hoặc bầu dục màu nâu đen, sau lan rộng dần và có thể làm lá khô rụng.",
+      "Trên hoa: Vết bệnh làm hoa bị thâm đen, rụng sớm, giảm tỷ lệ đậu quả.",
+      "Trên quả: Xuất hiện đốm tròn màu nâu, sau đó lõm xuống, vỏ quả bị thối nhũn.",
+      "Bệnh nặng có thể làm rụng quả hàng loạt, ảnh hưởng lớn đến năng suất."
+    ],
+    "ten_thuoc": ["Carbendazim", "Antracol", "Mancozeb"],
+    "lieu_luong": "10-20g cho bình 16 lít",
+    "huong_dan_phun": "Phun khi phát hiện bệnh chớm xuất hiện, phun định kỳ 7–10 ngày/lần trong mùa mưa."
+  }
+}
