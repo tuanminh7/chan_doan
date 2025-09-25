@@ -1,12 +1,8 @@
-
 from flask import Flask, render_template, request, url_for, redirect, session
 from werkzeug.utils import secure_filename
 import os
 from datetime import timedelta
 from botchat import du_doan_benh
-from pyngrok import conf
-conf.get_default().auth_token = "319CVvfCLqomRBQ7uwKEwCf0YIT_26yX3aNkwRhBeVu1eLph4"
-
 
 app = Flask(__name__)
 app.secret_key = "replace_this_with_a_random_secret"
@@ -45,7 +41,6 @@ def send():
         messages.append({"sender": "user", "type": "image", "content": f"uploads/{filename}"})
 
         ket_qua = du_doan_benh(save_path)
-
         messages.append({"sender": "bot", "type": "text", "content": ket_qua["text"]})
         session['messages'] = messages
 
@@ -57,10 +52,5 @@ def clear():
     return redirect(url_for('index'))
 
 if __name__ == "__main__":
-    from pyngrok import ngrok
-
-    # Mở tunnel tới port 5000
-    public_url = ngrok.connect(5000)
-    print("Public URL:", public_url)
-
-    app.run(port=5000)
+    # Chỉ chạy local (không dùng trên Railway)
+    app.run(port=5000, debug=True)
