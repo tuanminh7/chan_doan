@@ -167,4 +167,4 @@ print(classification_report(y_true, y_pred, target_names=list(train_generator.cl
 print("Confusion Matrix:")
 print(confusion_matrix(y_true, y_pred))
 
-print(f"✅ Mô hình tốt nhất đã được lưu tại: {MODEL_SAVE_PATH}")
+print(f" Mô hình tốt nhất đã được lưu tại: {MODEL_SAVE_PATH}")
